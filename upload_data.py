@@ -3,6 +3,9 @@ from sensor.exception import SensorException
 from sensor.logger import logging
 import os,sys
 def storing_record_in_mongo():
+    """
+    Like I said on the readMe. This project works just like Sensor_Detection_Project which I called 1.0
+    """
     try:
         file_path="aps_failure_training_set1.csv"
         database_name = "sensor"
